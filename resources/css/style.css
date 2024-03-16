@@ -1,3 +1,26 @@
 body{
     background-color: #121212;
+    display: grid;
+    margin: 0;
+    grid-template-rows: 100px 600px auto;
+}
+
+#menu{
+    background-color: #1A1A1A;
+}
+
+/*header*/
+#header{
+    background-image: url("../images/heade-background.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#background1{
+    width: 40%;
+    height: 25rem;
+}
+#background2 {
+    width: 40%;
+    height: 25rem;
 }
